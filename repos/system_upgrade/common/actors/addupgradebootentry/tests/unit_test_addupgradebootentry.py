@@ -29,7 +29,7 @@ class write_to_file_mocked(object):
         self.content = content
 
 
-CONFIGS = ['/boot/grub2/grub.cfg', '/boot/efi/EFI/redhat/grub.cfg']
+CONFIGS = ['/boot/grub2/grub.cfg', '/boot/efi/EFI/centos/grub.cfg']
 
 RunArgs = namedtuple('RunArgs', 'args_remove args_add args_zipl args_len')
 
